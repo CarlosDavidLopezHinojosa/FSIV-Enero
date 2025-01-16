@@ -72,7 +72,7 @@ fsiv_compute_mean_recognition_rate(const cv::Mat& RRs)
 {
     float m_rr = 0.0;
     //TODO
-    m_rr = cv::sum(RRs)[0] / RRs.rows; 
+    m_rr = cv::mean(RRs)[0]; 
     //
     return m_rr;
 }
