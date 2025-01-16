@@ -1,6 +1,8 @@
+*.zip
+*.pdf
+*.md
 *build/
 *data/
-*.zip
 *.vscode/
 Apuntes de FSIV/
 bloque 3/
